@@ -1,20 +1,54 @@
-/*////////////// Fonts //////////////*/
-
-/* link the web font used for the level 1 heading here */
-
-/*////////// Global Styles //////////*/
-
 body {
-	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+  background-color: #F3EBE9;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', serif;
+  color: #555;
 }
 
 .wrapper {
-	width: 960px;
-	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 45px 20px;
+  background-color: #fff;
 }
 
-/* Write all remaining styles here */
+h1 {
+  /* NOTE TO EXAMINERS: Had to use this version of Baskerville because the one used in the example was a paid font by adobe. */
+  font-family: 'Libre Baskerville', serif;
+  font-size: 4em;
+  margin: 0 0 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+h1 a {
+  text-decoration: none;
+  color: rgb(152,173,166);
+}
+
+h1 a:hover {
+  text-decoration: underline;
+}
+
+#first img {
+  border: 5px rgb(152,173,166) solid;
+}
+
+h2 {
+  font-size: 2em;
+  color: rgb(111,127,122);
+}
+
+p {
+  margin: 0 0 20px 0;
+}
+
+#as-seen-on a img{
+  border: 5px #ccc solid;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: right;
+  font-size: 0.8em;
+  color: #555;
+}

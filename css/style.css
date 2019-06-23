@@ -3,11 +3,16 @@
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
+* {
+
+	box-sizing: border-box;
+}
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+	padding: 0px;
 }
 
 .wrapper {
@@ -15,6 +20,40 @@ body {
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	position: relative;
+	top: -1.5em;
 }
 
+
 /* Write all remaining styles here */
+header {
+	padding: 2em 0 1.5em 0;
+	margin: 0;
+}
+
+h1, h2 {
+	color: rgb(111,127,122);
+}
+
+
+.company-name {
+	font-size: 5em;
+	margin: 0px;
+}
+
+.main-picture {
+	border: solid 0.2em rgb(111,127,122);
+	width: 100%;
+}
+
+.press img {
+	border: 5px #ccc solid;
+}
+
+.small {
+
+	position: relative;
+	top: 0;
+	right: 0;
+
+}
